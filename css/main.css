@@ -69,3 +69,15 @@ body{
     line-height: 50px;
     text-transform: capitalize;
 }
+
+/* SITE-HEADER */
+.logo::before{
+    content: url(../MYWORK.svg);
+}
+
+.header-nav__btn{
+    text-transform: uppercase;
+    padding-left: 43px;
+    padding-right: 43px;
+}
+/* SITE-HEADER */
