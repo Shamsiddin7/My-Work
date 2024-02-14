@@ -1,44 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- bootstrap links -->
-    <link rel="stylesheet" href="./libs/bootstrap.min.css">
-    <!-- css links -->
-    <link rel="stylesheet" href="./css/main.css">
-    <title>My Work</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- facicon -->
+  <link rel="shortcut icon" href="./img/logo white.svg" type="image/x-icon">
+  <!-- bootstrap links -->
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <!-- icons link -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <title>My work</title>
+  <!-- main css link -->
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- media css link -->
+  <link rel="stylesheet" href="./css/media.css">
 </head>
+
 <body>
-    <!-- SITE-HEADER-HERO -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+
+
+  <!-- SITE-HEADER-HERO -->
+
+  <div class="site-header-hero">
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container">
           <a class="navbar-brand site-header__logo logo" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler header-menu collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5 align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                <a class="header-nav__link" href="#">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Works</a>
+                <a class="header-nav__link" href="#">Works</a>
               </li>
               <li class="nav-item">
-                <a href="#!" class="nav-link disabled all-btn">To Order</a>
+                <a class="header-nav__btn all-btn" href="#">To Order</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#!">
-                    <i class="far fa-phone-square-alt fa-2x header-nav__icon"></i>
+                <a class="header-nav__link" href="#">
+                  <i class="far fa-phone-square-alt fa-2x header-nav__icon"></i>
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
       </nav>
-    <!-- SITE-HEADER-HERO -->
+    </header>
+
+    <div class="site-hero">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="col-xl-10 site-hero__desc ms-auto">
+                <p class="site-hero__subtitle">My beginning</p>
+                <h1 class="site-hero__title title">Self-development and training in the training center</h1>
+                <a href="#!" class="site-hero__btn all-btn">GET STARTED NOW</a>
+              </div>
+
+              <div class="row">
+                <div class="col-xl-4 site-hero__tech">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="78" height="90" viewBox="0 0 78 90" fill="none">
+                    <path d="M7.42953 81.0032L0.421875 0H77.4219L70.4049 80.9904L38.8751 90L7.42953 81.0032Z"
+                      fill="#E44F26" />
+                    <path d="M38.9219 83.1151L64.4014 75.8347L70.3955 6.62474H38.9219V83.1151Z" fill="#F1662A" />
+                    <path
+                      d="M38.9217 36.665H26.1663L25.2868 26.4918H38.9217V16.5565H14.752L14.9827 19.2243L17.3498 46.6004H38.9217V36.665Z"
+                      fill="#EBEBEB" />
+                    <path
+                      d="M38.9217 62.4663L38.8781 62.4791L28.1436 59.4931L27.4575 51.5699H17.7803L19.1307 67.1656L38.8781 72.8163L38.9217 72.8034V62.4663Z"
+                      fill="#EBEBEB" />
+                    <path
+                      d="M38.8877 36.6653V46.6007H50.7574L49.6409 59.4867L38.8877 62.476V72.8132L58.6507 67.1657L58.7942 65.4878L61.0583 39.3332L61.2954 36.6653H38.8877Z"
+                      fill="white" />
+                    <path d="M38.8877 16.5565V26.4918H62.1717L62.3651 24.2611L62.8048 19.2243L63.0356 16.5565H38.8877Z"
+                      fill="white" />
+                  </svg>
+                  <span class="site-hero__name">HTML</span>
+                </div>
+                <div class="col-xl-4 site-hero__tech">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="77" height="90" viewBox="0 0 77 90" fill="none">
+                    <path d="M7.0051 81.0032L0 0H77L69.9855 80.9904L38.4532 90L7.0051 81.0032Z" fill="#1572B6" />
+                    <path d="M38.5 83.115L63.9816 75.8346L69.9762 6.62468H38.5V83.115Z" fill="#33A9DC" />
+                    <path
+                      d="M38.5 35.9711H51.2564L52.136 25.7979H38.5V15.8625H62.6717L62.4409 18.5272L60.0736 45.9065H38.5V35.9711Z"
+                      fill="white" />
+                    <path
+                      d="M38.5592 61.7722L38.5155 61.7851L27.7802 58.7958L27.094 50.8725H17.416L18.7665 66.4715L38.5124 72.1222L38.5592 72.1094V61.7722Z"
+                      fill="#EBEBEB" />
+                    <path
+                      d="M50.4361 45.4854L49.2758 58.7893L38.5249 61.7786V72.1157L58.2864 66.4714L58.433 64.7936L60.1078 45.4854H50.4361Z"
+                      fill="white" />
+                    <path d="M38.5346 15.8625V25.7979H15.2487L15.0553 23.564L14.6156 18.5272L14.3848 15.8625H38.5346Z"
+                      fill="#EBEBEB" />
+                    <path d="M38.5001 35.971V45.9064H27.8989L27.7055 43.6725L27.2689 38.6357L27.0381 35.971H38.5001Z"
+                      fill="#EBEBEB" />
+                  </svg>
+                  <span class="site-hero__name">CSS</span>
+                </div>
+                <div class="col-xl-4 site-hero__tech">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
+                    <path
+                      d="M75 0H15C11.0248 0.00990093 7.21524 1.59343 4.40434 4.40434C1.59343 7.21524 0.00990093 11.0248 0 15V75C0 83.25 6.75 90 15 90H75C83.25 90 90 83.25 90 75V15C90 6.75 83.25 0 75 0ZM66.7988 63.2062C66.0488 65.0137 64.86 66.6075 63.3375 67.8338C61.7625 69.1088 59.7675 70.1588 57.3112 70.9088C54.8587 71.67 51.9412 72.0525 48.5625 72.0525H24.4425V19.5525H49.95C54.6675 19.5525 58.4475 20.6138 61.275 22.7775C64.125 24.9525 65.5425 28.1925 65.5425 32.565C65.5425 35.2087 64.8975 37.4775 63.6 39.3525C62.31 41.2163 60.45 42.675 58.05 43.6875V43.86C61.2525 44.535 63.7313 46.0538 65.3625 48.4163C66.9938 50.7788 67.83 53.7638 67.83 57.3675C67.83 59.385 67.44 61.305 66.705 63.0975L66.7988 63.1988V63.2062ZM56.3887 50.2687C54.8512 48.8625 52.6912 48.1763 49.9012 48.1763H33.6937V64.5563H49.9463C52.7213 64.5563 54.8963 63.8363 56.4338 62.3813C57.9712 60.9375 58.7587 58.8787 58.7587 56.2313C58.7325 53.6437 57.9712 51.6413 56.4338 50.2687H56.37H56.3887ZM54.1388 39.6825C55.6238 38.4225 56.3512 36.6187 56.3512 34.2675C56.3512 31.6275 55.695 29.7525 54.3638 28.68C53.0438 27.6112 51.1388 27.0563 48.6338 27.0563H33.6338V41.5425H48.6338C50.82 41.5425 52.6838 40.905 54.1237 39.6825H54.1388Z"
+                      fill="#790FF1" />
+                  </svg>
+
+                  <span class="site-hero__name">bootstrap 5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/slide1.png" class="d-block w-100 site-hero__image" alt="Slider image">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/slide2.png" class="d-block w-100 site-hero__image" alt="Slider image">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/slide1.png" class="d-block w-100 site-hero__image" alt="Slider image">
+                </div>
+              </div>
+            </div>
+          </div>
 
 
-    <!-- bootstrap js -->
-    <script src="./libs/bootstrap.bundle.min.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SITE-HEADER-HERO -->
+
+
+  <!-- Bootstrap js -->
+  <script src="./libs/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
