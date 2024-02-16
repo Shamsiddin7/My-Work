@@ -192,4 +192,23 @@ body {
     width: 100%;
     min-height: 500px;
 }
+
+.carousel-indicators{
+    display: flex;
+    column-gap: 30px;
+    padding-top: 50px;
+    margin-bottom: unset;
+}
+
+.carousel-indicators > button{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: var(--dots);
+    opacity: 1 !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators > button.active{
+    background-color: var(--dots-active);
+}
 /* SITE-HERO */
